@@ -71,6 +71,7 @@ footer {
 
 p {
     color: #312827;
+    font-size: 18px;
 }
 
 @media (min-width: 768px) {
