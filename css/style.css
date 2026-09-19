@@ -40,3 +40,37 @@ img {
     padding: 20px;
     margin-bottom: 16px;
 }
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+article ul {
+    margin-left: 20px;
+}
+
+article img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+    .cards-container article {
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
