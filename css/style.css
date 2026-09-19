@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: lightblue;
+    background-color: #E37C78;
     padding: 20px;
     text-align: center;
     margin-bottom: 24px;
@@ -17,10 +17,13 @@ main {
 
 img {
     max-width: 100%;
+    border:2px solid #E37C78;
+    display: block;
+    margin: 0 auto;
 }
 
 .intro {
-    background-color: lightpink;
+    background-color: #FFD4D1;
     padding: 20px;
     margin-bottom: 24px;
 }
@@ -35,7 +38,7 @@ img {
 }
 
 .cards-container article {
-    background-color: lightskyblue;
+    background-color: #82BAC4;
     width: 100%;
     padding: 20px;
     margin-bottom: 16px;
@@ -60,10 +63,14 @@ article img {
 }
 
 footer {
-    background-color: lightseagreen;
+    background-color: #006078;
     padding: 20px;
     text-align: center;
     margin-top: 24px;
+}
+
+p {
+    color: #312827;
 }
 
 @media (min-width: 768px) {
