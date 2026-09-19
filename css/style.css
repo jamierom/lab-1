@@ -1,1 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.intro {
+    background-color: lightpink;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+}
+
+.intro img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cards-container article {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 16px;
+}
